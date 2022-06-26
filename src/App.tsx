@@ -3,7 +3,6 @@ import IMAGE from './movie.jpg'
 import { Counter } from './Counter'
 
 export const App = () => {
-  const name = 'TSANAK'
   return (
     <>
       <h1>
