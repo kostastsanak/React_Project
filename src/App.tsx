@@ -1,3 +1,6 @@
+//Created as a small project for a job interview
+//By Konstantinos Tsanaktsis
+
 import './css/styles.css'
 import React, { useEffect, useState } from 'react'
 import WatchList from './WatchList'
