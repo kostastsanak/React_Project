@@ -9,15 +9,11 @@ const WatchList = (props: { movies: any[] }) => {
             alt="movie"
             display="block"
           ></img>
-          <h2 id="ShowMovies" display="none">
-            {movie.Title}
-          </h2>
-          <h2 id="ShowMovies" display="none">
-            {movie.Type}
-          </h2>
-          <h2 id="ShowMovies" display="none">
-            {movie.Year}
-          </h2>
+          <div className="details">
+            <h2>{movie.Title}</h2>
+            <h2>{movie.Type}</h2>
+            <h2>{movie.Year}</h2>
+          </div>
         </div>
       ))}
     </div>
